@@ -1,0 +1,186 @@
+{
+    "products": [
+      {
+        "id": "prod001",
+        "name": "Slim Fit Cotton Shirt",
+        "description": "A comfortable, breathable cotton shirt with a modern slim fit.",
+        "brand": "FashionBrand",
+        "category": {
+          "main": "Tops",
+          "sub": "Shirts"
+        },
+        "gender": "Men",
+        "price": {
+          "current": 49.99,
+          "original": 59.99,
+          "currency": "USD"
+        },
+        "discount": {
+          "percentage": 16,
+          "amount": 10
+        },
+        "images": [
+          {
+            "url": "https://example.com/images/prod001_main.jpg",
+            "type": "main"
+          },
+          {
+            "url": "https://example.com/images/prod001_alt1.jpg",
+            "type": "alternate"
+          }
+        ],
+        "sizes": [
+          {
+            "name": "S",
+            "stock": 50
+          },
+          {
+            "name": "M",
+            "stock": 75
+          },
+          {
+            "name": "L",
+            "stock": 60
+          },
+          {
+            "name": "XL",
+            "stock": 40
+          }
+        ],
+        "colors": [
+          {
+            "name": "White",
+            "hex": "#FFFFFF"
+          },
+          {
+            "name": "Blue",
+            "hex": "#0000FF"
+          }
+        ],
+        "materials": ["100% Cotton"],
+        "care": ["Machine wash cold", "Tumble dry low"],
+        "tags": ["casual", "office", "summer"],
+        "ratings": {
+          "average": 4.5,
+          "count": 120
+        },
+        "metadata": {
+          "dateAdded": "2024-03-15T10:30:00Z",
+          "lastUpdated": "2024-03-20T14:45:00Z"
+        }
+      },
+      {
+        "id": "prod002",
+        "name": "High-Waisted Skinny Jeans",
+        "description": "Flattering high-waisted jeans with a classic skinny fit.",
+        "brand": "DenimCo",
+        "category": {
+          "main": "Bottoms",
+          "sub": "Jeans"
+        },
+        "gender": "Women",
+        "price": {
+          "current": 79.99,
+          "original": 89.99,
+          "currency": "USD"
+        },
+        "discount": {
+          "percentage": 11,
+          "amount": 10
+        },
+        "images": [
+          {
+            "url": "https://example.com/images/prod002_main.jpg",
+            "type": "main"
+          },
+          {
+            "url": "https://example.com/images/prod002_alt1.jpg",
+            "type": "alternate"
+          }
+        ],
+        "sizes": [
+          {
+            "name": "25",
+            "stock": 30
+          },
+          {
+            "name": "26",
+            "stock": 45
+          },
+          {
+            "name": "27",
+            "stock": 50
+          },
+          {
+            "name": "28",
+            "stock": 40
+          },
+          {
+            "name": "29",
+            "stock": 35
+          },
+          {
+            "name": "30",
+            "stock": 25
+          }
+        ],
+        "colors": [
+          {
+            "name": "Indigo",
+            "hex": "#4B0082"
+          }
+        ],
+        "materials": ["98% Cotton", "2% Elastane"],
+        "care": ["Machine wash cold", "Hang dry"],
+        "tags": ["denim", "stretchy", "versatile"],
+        "ratings": {
+          "average": 4.7,
+          "count": 85
+        },
+        "metadata": {
+          "dateAdded": "2024-03-10T09:15:00Z",
+          "lastUpdated": "2024-03-18T11:30:00Z"
+        }
+      }
+    ],
+    "filters": {
+      "categories": [
+        {
+          "name": "Tops",
+          "subcategories": ["T-Shirts", "Shirts", "Blouses", "Sweaters"]
+        },
+        {
+          "name": "Bottoms",
+          "subcategories": ["Jeans", "Trousers", "Skirts", "Shorts"]
+        },
+        {
+          "name": "Dresses",
+          "subcategories": ["Casual", "Formal", "Maxi", "Mini"]
+        },
+        {
+          "name": "Outerwear",
+          "subcategories": ["Jackets", "Coats", "Blazers"]
+        },
+        {
+          "name": "Accessories",
+          "subcategories": ["Bags", "Jewelry", "Belts", "Scarves"]
+        }
+      ],
+      "sizes": ["XS", "S", "M", "L", "XL", "XXL"],
+      "colors": [
+        {"name": "Black", "hex": "#000000"},
+        {"name": "White", "hex": "#FFFFFF"},
+        {"name": "Red", "hex": "#FF0000"},
+        {"name": "Blue", "hex": "#0000FF"},
+        {"name": "Green", "hex": "#008000"}
+      ],
+      "priceRanges": [
+        {"min": 0, "max": 25},
+        {"min": 25, "max": 50},
+        {"min": 50, "max": 100},
+        {"min": 100, "max": 200},
+        {"min": 200, "max": null}
+      ],
+      "brands": ["FashionBrand", "DenimCo", "LuxeStyle", "UrbanChic", "EcoWear"]
+    }
+  }
